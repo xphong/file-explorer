@@ -1,0 +1,28 @@
+.node {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  height: 28px;
+
+  &:hover {
+    color: white;
+
+    .closeButton {
+      display: block;
+    }
+  }
+}
+
+.nodeName {
+  display: flex;
+  align-items: center;
+  flex: 1;
+}
+
+.innerNode {
+  margin-left: 10px;
+}
+
+.closeButton {
+  display: none;
+}
